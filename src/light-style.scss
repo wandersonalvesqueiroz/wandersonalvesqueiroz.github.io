@@ -1,0 +1,26 @@
+:root {
+  --theme-color: #007591;
+  --thin-color: #b5b5b5;
+}
+
+@import "~bulma/bulma";
+@import './base.scss';
+
+.has-background-primary {
+  background-color: #007591 !important;
+}
+.has-text-primary {
+  color: #007591 !important;
+}
+b {
+  font-weight: 600;
+}
+progress::-moz-progress-bar {
+  background: #00191f !important;
+}
+progress::-webkit-progress-bar {
+  background: #00191f !important;
+}  
+progress::-webkit-progress-value {  
+  background: #007591 !important;
+} 
